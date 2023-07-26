@@ -221,7 +221,25 @@ a{ text-decoration: none;}
 .fw-medium {text-align:center; }
 
 @media (max-width: 768px) {
+  aside{ display: none;}
+  
+  .tabla{ 
+    background-color: #0130be;
+    color: #ff7700;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "cuadrado1"
+    "cuadrado2"
+    "cuadrado3" 
+    "cuadrado4" ;
+    gap: 20px;}
 
+.cuadrado1{ grid-area: cuadrado1;}
+.cuadrado2{ grid-area: cuadrado2;}
+.cuadrado3{ grid-area: cuadrado3;}
+.cuadrado4{ grid-area: cuadrado4;}
 }    
-aside{ display: none;}
+
         
