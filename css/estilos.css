@@ -221,9 +221,19 @@ a{ text-decoration: none;}
 .fw-medium {text-align:center; }
 
 @media (max-width: 768px) {
+  nav{;
+    background-color: #0130be;
+    color: #ff7700;
+    display:flex;
+    flex-direction: column;
+   
+    }
+   
   aside{ display: none;}
-  
+  article{ width: 100%;}
+
   .tabla{ 
+    
     background-color: #0130be;
     color: #ff7700;
     display: grid;
