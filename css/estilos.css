@@ -91,7 +91,6 @@ aside{font-family: 'Montserrat', sans-serif;
       display:flex;
       text-decoration: none;
       width: 30%;
-      /* height: 40vh; */
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -220,7 +219,11 @@ a{ text-decoration: none;}
 .fst-italic{ text-align: center;}
 
 .fw-medium {text-align:center; }
-     
 
-        
-        
+
+
+/* @media (max-width: 768px) {
+
+}    
+aside{ display: none;}
+         */
