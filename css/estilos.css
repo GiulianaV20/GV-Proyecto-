@@ -220,10 +220,8 @@ a{ text-decoration: none;}
 
 .fw-medium {text-align:center; }
 
-
-
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
 
 }    
 aside{ display: none;}
-         */
+        
